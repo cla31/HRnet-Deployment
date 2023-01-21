@@ -1,3 +1,33 @@
+![React](https://img.shields.io/badge/react-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB)
+![NodeJS](https://img.shields.io/badge/node.js-6DA55F?style=for-the-badge&logo=node.js&logoColor=white)
+![Yarn](https://img.shields.io/badge/yarn-%232C8EBB.svg?style=for-the-badge&logo=yarn&logoColor=white)
+![NPM](https://img.shields.io/badge/NPM-%23000000.svg?style=for-the-badge&logo=npm&logoColor=white)
+![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E)
+![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white)
+![CSS3](https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white)
+![Redux Toolkit](https://img.shields.io/badge/Redux-593D88?style=for-the-badge&logo=redux&logoColor=white)
+
+###
+
+![Texte alternatif](./src/assets/logo.png 'Logo HRnet')
+
+###
+
+# Project 14 - HRnet
+
+Welcome to HRnet! Our company's internal application to create and view employees records.
+
+---
+
+## Installing the app
+
+- Forke and clone the repository : `https://github.com/cla31/P14-HRNet/tree/main/projet-hrnet-react-front-end`
+- Open a new terminal
+- Run `cd projet-hrnet-react-front-end`
+- Then run the `yarn start` command that will allow you to run the application on http://localhost:3000
+
+---
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
