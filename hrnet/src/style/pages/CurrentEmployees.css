@@ -1,0 +1,37 @@
+.body-table {
+    /* border: 2px solid red; */
+    padding: 6rem 2rem;
+    /* background-color: #F9F8F8; */
+    background-color: #e2d4ca;
+    height: 2000px;
+}
+
+.header-table {
+    /* border: 2px solid blue; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+    margin-bottom: 100px;
+}
+
+.link-home a {
+    font-weight: 300;
+    text-decoration: none;
+    color: #001730;
+}
+
+.logo-table-employee {
+    display: flex;
+    justify-content: center;
+}
+
+.img-logo {
+    /* border: 2px solid red; */
+    width: 30%;
+    filter: grayscale(20%) brightness(70%) contrast(105%);
+}
+
+.title-table {
+    color: #3c480a;
+}

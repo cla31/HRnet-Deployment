@@ -1,0 +1,180 @@
+.section-film-search {
+    /* border: 2px solid red; */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    max-width: 1260px;
+    margin: 0 auto;
+    padding: 3rem 1rem;
+}
+
+.container-filter {
+    /* border: 2px solid blue; */
+    width: 30%;
+    display: flex;
+}
+
+.container-filter select {
+    font-weight: 300;
+    color: white;
+    margin-left: 5px;
+    margin-right: 5px;
+    border-radius: 40px;
+    background-color: #6e7b39;
+    width: 45%;
+    height: 50px;
+    outline: none;
+    -moz-focusring: none;
+}
+
+.container-filter select:hover {
+    background-color: #789115;
+}
+
+.container-filter select option {
+    text-align: center;
+}
+
+
+/* Design du tableau */
+
+.table {
+    border: 2px solid #c2ab9b;
+    width: 100%;
+    max-width: 1260px;
+    margin: 0 auto;
+    overflow-x: scroll;
+}
+
+table {
+    /* border: 2px solid red; */
+    width: 100%;
+    border-collapse: separate;
+    border-spacing: 0;
+}
+
+table input::placeholder {
+    color: black;
+    font-weight: 300;
+    text-align: center;
+}
+
+tbody tr:nth-child(odd) {
+    background-color: #ECE9E9;
+}
+
+th,
+td {
+    /* cell */
+    padding: 0.75rem;
+    font-size: 0.9375rem;
+}
+
+th {
+    /* header cell */
+    font-weight: 700;
+    text-align: left;
+    color: #3c480a;
+    border-bottom: 2px solid #7e9711;
+    position: sticky;
+    top: 0;
+    background-color: #F9F8F8;
+    text-align: center;
+}
+
+th span {
+    text-align: center;
+}
+
+.custom-filter {
+    color: #3c480a;
+}
+
+td {
+    /* body cell */
+    color: #001730;
+}
+
+.navigation-table {
+    /* border: 2px solid red; */
+    width: 100%;
+    max-width: 1260px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+}
+
+
+/* .pagination {
+    border: 2px solid blue;
+} */
+
+.navigation-input {
+    /* border: 2px solid black; */
+    margin-top: 15px;
+}
+
+.pagination span {
+    /* border: 2px solid red; */
+    font-weight: 300;
+}
+
+.button-pagination {
+    /* border: 2px solid orange; */
+    text-align: center;
+}
+
+
+/* .page-n-of-n {
+    border: 2px solid green;
+}
+
+.go-to-page {
+    border: 2px solid purple;
+} */
+
+
+/* Media queries version TABLETTE  */
+
+@media (max-width:1370px) and (min-width:376px) {
+    .table::-webkit-scrollbar {
+        background-color: #798353;
+    }
+}
+
+
+/* Media queries version MOBILE  */
+
+@media screen and (max-width: 768px) {
+    .title-table {
+        font-size: 12px;
+    }
+    .table {
+        /* border: 2px solid red; */
+        width: 100%;
+        overflow-x: scroll;
+    }
+    table {
+        overflow-x: scroll;
+    }
+    .container-filter {
+        /* border: 2px solid blue; */
+        justify-content: center;
+        width: 180px;
+    }
+    .section-film-search {
+        flex-direction: column;
+        /* justify-content: center;
+        align-items: center; */
+    }
+    .navigation-input {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .go-to-page {
+        /* border: 2px solid purple; */
+        margin-top: 15px;
+    }
+}

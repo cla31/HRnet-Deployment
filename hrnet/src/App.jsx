@@ -1,25 +1,31 @@
-import logo from './logo.svg';
-import './App.css';
+import { BrowserRouter as Router, Route, Routes } from 'react-router-dom'
+import CurrentEmployee from './pages/CurrentEmployees'
+import Login from './pages/Login'
+import Home from './pages/Home'
+import PageError from './pages/PageError'
+import { Provider } from 'react-redux'
+import { store } from './redux/employees.slice.js'
+import './App.css'
+import Header from './components/Header'
 
-function App() {
+/**
+ * Creation of pages routes.
+ * @returns {JSX.Element} App component
+ */
+const App = () => {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Demo
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+    <Provider store={store}>
+      <Router>
+        <Header />
+        <Routes>
+          <Route path="/" element={<Login />} />
+          <Route path="/Home" element={<Home />} />
+          <Route path="/CurrentEmployee" element={<CurrentEmployee />} />
+          <Route path="*" element={<PageError />} />
+        </Routes>
+      </Router>
+    </Provider>
+  )
 }
 
-export default App;
+export default App
