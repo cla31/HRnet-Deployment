@@ -7,7 +7,7 @@ import {
   emailChecker,
   passwordChecker,
 } from '../utils/checkInput'
-import { Modal } from 'modal-lib-claire-marie'
+import Modal from '../components/Modal'
 import iconeValidation from '../assets/validationSignUp.svg'
 
 /**
