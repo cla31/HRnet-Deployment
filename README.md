@@ -35,6 +35,23 @@ Welcome to HRnet! Our company's internal application to create and view employee
 `https://hrnet-deploy.vercel.app/`
 
 ---
+## Application overview
+
+### Home page:
+
+![DESKTOP-VERSION](./home.jpg)
+
+### Login page:
+
+![MOBILE-VERSION](./login.png)
+
+### Profil page:
+
+![MOBILE-VERSION](./profil.png)
+
+### Datas flow:
+
+![SCHEMA-CODE](./DatasFlow.png)
 # Getting Started with Create React App
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
