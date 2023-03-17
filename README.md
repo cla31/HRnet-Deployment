@@ -39,7 +39,7 @@ Welcome to HRnet! Our company's internal application to create and view employee
 
 ### Login page:
 
-![LOGIN-PAGE](./login.png)
+![LOGIN-PAGE](./login.png=400x)
 
 
 ### Form page:
