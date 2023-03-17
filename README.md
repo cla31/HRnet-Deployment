@@ -9,7 +9,7 @@
 
 ###
 
-![Texte alternatif](./src/assets/logo.png 'Logo HRnet')
+![Texte alternatif](./hrnet/src/assets/logo.png 'Logo HRnet')
 
 ###
 
