@@ -37,7 +37,7 @@ Welcome to HRnet! Our company's internal application to create and view employee
 ---
 ## Application overview
 
-### Home page:
+### Form page:
 
 ![DESKTOP-VERSION](./home.jpg)
 
@@ -45,7 +45,7 @@ Welcome to HRnet! Our company's internal application to create and view employee
 
 ![MOBILE-VERSION](./login.png)
 
-### Profil page:
+### Employee data table page:
 
 ![MOBILE-VERSION](./profil.png)
 
