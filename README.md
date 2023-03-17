@@ -37,14 +37,14 @@ Welcome to HRnet! Our company's internal application to create and view employee
 ---
 ## Application overview
 
-### Form page:
-
-![FORM-PAGE](./form.png)
-
-
 ### Login page:
 
 ![LOGIN-PAGE](./login.png)
+
+
+### Form page:
+
+![FORM-PAGE](./form.png)
 
 
 ### Employee data table page:
