@@ -38,7 +38,7 @@ Welcome to HRnet! Our company's internal application to create and view employee
 ## Application overview
 
 ### Login page:
-<img src="./login.png" alt="login page" width="500"/>
+<img src="./login.png" alt="login page" width="300"/>
 
 
 ### Form page:
