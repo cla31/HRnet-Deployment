@@ -13,12 +13,16 @@
 
 ###
 
-# Project 14 - HRnet
+# Project 14 -" HRnet" from React JS Application Developer Training.
 
 Welcome to HRnet! Our company's internal application to create and view employees records.
 
----
-
+**Skills developed:**
+- Analyze the performance of a web application
+- Deploy a front-end application
+- Programming in JavaScript with Functional Programming
+- Redesign an application to reduce technical debt
+##
 ## Installing the app
 
 - Forke and clone the repository : `https://github.com/cla31/P14-HRNet/tree/main/projet-hrnet-react-front-end`
